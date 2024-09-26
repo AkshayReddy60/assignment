@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/assignment/static/css/main.ead1a6e7.css",
+    "main.js": "/assignment/static/js/main.4e267809.js",
+    "static/js/453.a15e5fea.chunk.js": "/assignment/static/js/453.a15e5fea.chunk.js",
+    "static/media/coorg.png": "/assignment/static/media/coorg.f4f1b7d5e1631c66afd8.png",
+    "static/media/chickmagalur.png": "/assignment/static/media/chickmagalur.22fafdef72d07688508b.png",
+    "static/media/image1.png": "/assignment/static/media/image1.85eb5640acb40d24d980.png",
+    "static/media/ooty.png": "/assignment/static/media/ooty.fd27e6adc8bed24c8c8a.png",
+    "static/media/valparai.png": "/assignment/static/media/valparai.a8566dfe430638d2bec1.png",
+    "static/media/wayanad.png": "/assignment/static/media/wayanad.fe3750430f3846e5d3ca.png",
+    "static/media/kodaikanal.png": "/assignment/static/media/kodaikanal.5dd0e01ab4700958fcbc.png",
+    "static/media/theblackfro.png": "/assignment/static/media/theblackfro.fd533a78b2aed4bae47f.png",
+    "static/media/lux.png": "/assignment/static/media/lux.b8da2e438f922d3f7a59.png",
+    "static/media/ren.png": "/assignment/static/media/ren.9b9d90f79a7fbd4f7746.png",
+    "static/media/hotel.png": "/assignment/static/media/hotel.b5f1b7f69e511487f185.png",
+    "static/media/cottage.png": "/assignment/static/media/cottage.b03cad9b711496cac1dd.png",
+    "static/media/greenpark.png": "/assignment/static/media/greenpark.71c816af2b0874fa774a.png",
+    "static/media/resort.png": "/assignment/static/media/resort.747e27fddb4d9aba276a.png",
+    "static/media/villas.png": "/assignment/static/media/villas.e82d8da3364f11f6e85b.png",
+    "index.html": "/assignment/index.html",
+    "main.ead1a6e7.css.map": "/assignment/static/css/main.ead1a6e7.css.map",
+    "main.4e267809.js.map": "/assignment/static/js/main.4e267809.js.map",
+    "453.a15e5fea.chunk.js.map": "/assignment/static/js/453.a15e5fea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ead1a6e7.css",
+    "static/js/main.4e267809.js"
+  ]
+}
