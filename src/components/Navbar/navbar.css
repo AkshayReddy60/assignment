@@ -1,0 +1,112 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.his {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gold;
+    transition: opacity 0.3s;
+}
+
+.hidden {
+    opacity: 0; 
+}
+
+.navnames {
+    display: flex;
+    gap: 1.5rem; 
+}
+
+.namess {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.namess:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.butt {
+    color: black;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-size: 1rem;
+}
+
+.hamburger-menu {
+    display: none; 
+    cursor: pointer;
+    font-size: 2rem;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .navnames {
+        display: none; 
+    }
+
+    .hamburger-menu {
+        display: block; 
+    }
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh; 
+    text-align: center;
+    z-index: 100; 
+    overflow-y: auto; 
+}
+
+.mobile-menu.active {
+    display: block; 
+}
+
+.mobile-menu .namess {
+    display: block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

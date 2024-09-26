@@ -1,0 +1,117 @@
+
+.destinationdiv {
+    margin: 2rem; 
+    background-color: rgb(214, 206, 206);
+    padding: 1.5rem;
+    height: auto;
+}
+
+.headiiing {
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    color: rgb(44, 44, 69);
+    font-size: 2rem;
+}
+
+.cardcoooo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cardddd {
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.allsizeee {
+    height: auto;
+    width: 100%; 
+    
+}
+
+
+@media (min-width: 768px) {
+    .destinationdiv {
+        margin: 3rem auto;
+        padding: 2rem;
+        max-width: 1200px; 
+    }
+
+    .headiiing {
+        font-size: 2.5rem;
+    }
+
+    .cardcoooo {
+        justify-content:center;
+    }
+
+    .cardddd {
+        width: 300px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .destinationdiv {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .headiiing {
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+
+    .cardcoooo {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .cardddd {
+        width: 100%; 
+        margin-bottom: 1.5rem;
+    }
+
+    .allsizeee {
+        max-width: 100%; 
+    }
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.tab-link {
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid transparent;
+}
+@media (min-width: 768px){
+
+.tab-link {
+           font-size: 0.8rem;
+}
+}
+
+@media (max-width: 768px){
+
+.tab-link {
+           font-size: 0.6rem;
+}
+}
